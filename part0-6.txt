@@ -1,0 +1,9 @@
+browser->server: HTTP POST hhttps://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note over browser:
+A javascript code fetched from the server causes an event handler to handle the 
+submit event.  Server responds with HTTP status code 201 created. The request has 
+been fulfilled and a new note has been created.
+
+server-->browser: HTML code with the new note as a result of JavaScript code from the server.
+
